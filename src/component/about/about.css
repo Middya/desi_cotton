@@ -1,0 +1,25 @@
+.about{
+    width: 95%;
+    height: fit-content;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: left;
+    align-items: center;
+    margin: 2%;
+}
+.about_title{
+    color: #000;
+        font-family: Kumbh Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.about_subtitle{
+    color: #000;
+        font-family: Kumbh Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}

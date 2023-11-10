@@ -1,0 +1,118 @@
+/* #root {
+    height: 100%;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+} */
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 208px !important;
+    
+}
+.swiper_slider{
+    display:flex;
+    flex-direction: column;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.style_slide {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    
+    >div {
+        position: unset !important;
+    }
+
+    .image {
+        max-width: 100% !important;
+        min-height: 100% !important;
+        position: relative !important;
+        height: unset !important;
+        object-fit: cover !important;
+        margin: auto !important;
+        display: block !important;
+    }
+}
+
+.swiper {
+    width: 100%;
+    height: 524px;
+    margin: 20px auto;
+}
+.swiper-button-prev,
+.swiper-button-next{
+    color: #000 !important;
+    font-size: 10px !important;
+}
+/* .swiper-button-prev{
+    padding-right: 10rem !important;
+} */
+.product-price {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.product-price>p{
+    margin: 5%;
+}
+.product-price>p:first-child {
+    text-decoration: line-through;
+    color: #828282;
+}
+
+:root {
+    --swiper-navigation-size: 25px !important;
+}
+
+
+.product-descripthion{
+    width: 90%;
+    height: fit-content;
+    color: var(--Paragraph, #444D56);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: auto;
+}
+
+@media (max-width: 834px) {
+    .swiper {
+        height: 400px;
+    }
+    .swiper-slide{
+        width: 195px;
+    }
+}

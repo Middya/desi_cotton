@@ -1,0 +1,27 @@
+.socialMediaPostCard{
+    width: 204px;
+    height: 292px;
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 10px;
+}
+.socialLink{
+    width:50%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12%;
+}
+.description{
+    margin:2%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
